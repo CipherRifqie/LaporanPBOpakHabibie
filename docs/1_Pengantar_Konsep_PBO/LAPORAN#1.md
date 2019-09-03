@@ -2,7 +2,7 @@
 
 ## Kompetensi
 
-(PEMROGRAMAN BASIS OBJEK)
+(PEMROGRAMAN BERBASIS OBJEK)
 
 ## Ringkasan Materi
 
@@ -18,7 +18,7 @@
 
 ![contoh screenshot](img/ScreenShot-Sepeda1.PNG)
 
-Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/SepedaDemo.java)
+Contoh link kode program : [ini contoh link ke kode program](../../src/1_Pengantar_Konsep_PBO/Sepeda.java)
 
 
 ### Percobaan 2
