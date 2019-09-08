@@ -14,10 +14,13 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 
 1.
 ![screenshot](img2/Percobaan1-Nomor1.PNG)
+
 2.
 Karyawan.
+
 3.
 ID, Nama, Jenis Kelamin, Jabatan, dan Gaji.
+
 4.
 tampilkanDataKaryawan.
 
@@ -27,35 +30,39 @@ tampilkanDataKaryawan.
 ![link ke kode program](../../src/2_Class_dan_Object/Mahasiswa.java)
 
 5.
-ink kode program : [ini contoh link ke kode program](D:\TI POLINEMA\All About Programming (3rd Semester)\Pemrograman Berbasis Objek\Tugas\laporan-praktikum-pbo-master\src\1_Pengantar_Konsep_PBO/SepedaGunung.java)
+![link ke kode program](../../src/2_Class_dan_Object/TestMahasiswa.java)
 
-## Pertanyaan
+6.
+![screenshot](img2/Percobaan2-Nomor6.PNG)
 
-(1.
-Object : 	Rangkaian program yang terdiri dari state dan behaviour. State yaitu ciri-ciri pada suatu objek, sedangkan Behaviour adalah perilaku yang akan dilakukan oleh objek tersebut.
-Class :	Blueprint atau prototype pada objek. Prototype pada laptop bisa berbagai macam merek namun teknik dasar pada pembuatan laptop, itu sama.
-Enkapsulasi : Menyembunyikan detail pada objek. Ketika kita menggunakan mesin kopi, kita hanya perlu menekan tombol pada mesin kopi saja, tanpa perlu melihat bagaimana cara kopi tersebut dibuat oleh mesin itu.
-Inheritance : Memperluas fungsionalitas program tanpa mengubah banyak program
-Polimorfisme : Mewariskan suatu program yang dimana bisa menjadi bentuk lain dan memiliki jenis yang beragam.
+7.
+Pendeklarasian atributnya akan dilakukan di void tampilBiodata.
 
-(2.
-Object : Rangkaian program atau istilahnya seperti bahan-bahan (ingredients) dalam membentuk suatu prototype (blueprint)
-Class : Prototype (blueprint) yang akan dibuat dan dipublikasikan yang statusnya masih perlu pengembangan yang lebih baik (masih belum menjadi final product)
+8.
+Pendeklarasian methodnya akan dilakukan di main file pada java.
 
- 
-(3.
--Meringkas hasil pemrograman menjadi lebih sederhana.
--Mudah digunakan dan tidak perlu waktu yang lama.
--Tidak perlu melihat bagaimana konsep pemrograman tersenut secara struktural.
+9.
+Ada 4
 
-(4.
-Merek, Kecepatan, Gear, Rem, Warna, Ban, Penyangga, Setir
+10.
+Menginput bahwa NIM (Nomor Induk Mahasiswa) pada mahasiswa tersebut adalah 101.
 
-(5.
-![contoh screenshot](img/ScreenShot-Sepeda3.PNG)
+11.
+Menampilkan semua data yang telah dimasukkan ke dalam suatu atribut untuk dijalankan.
 
-(6.
-Karena ada kata “extends” yang fungsinya sebagai pewaris dan bisa diturunkan ke dalam beberapa jenis sepeda.
+12.
+![screenshot](img2/Percobaan2-Nomor12.PNG)
+
+
+## Percobaan 3
+3.
+![link ke kode program](../../src/2_Class_dan_Object/Barang.java)
+
+5.
+![link ke kode program](../../src/2_Class_dan_Object/TestBarang.java)
+
+6.
+![screenshot](img2/
 
 
 ## Tugas
