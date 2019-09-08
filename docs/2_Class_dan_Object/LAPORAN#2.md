@@ -21,10 +21,6 @@ ID, Nama, Jenis Kelamin, Jabatan, dan Gaji.
 4.
 tampilkanDataKaryawan.
 
-
-Link menuju kode program : [Klik disini](D:\TI POLINEMA\All About Programming (3rd Semester)\Pemrograman Berbasis Objek\Tugas\laporan-praktikum-pbo-master\src\1_Pengantar_Konsep_PBO/Sepeda.java)
-(D:\TI POLINEMA\All About Programming (3rd Semester)\Pemrograman Berbasis Objek\Tugas\laporan-praktikum-pbo-master\src\1_Pengantar_Konsep_PBO/SepedaDemo.java)
-
 ### Percobaan 2
 
 ![contoh screenshot](img/ScreenShot-Sepeda2.PNG)
