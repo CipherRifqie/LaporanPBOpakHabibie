@@ -6,22 +6,22 @@ Memahami deskripsi dari class dan object serta bagaimana cara mengimplementasika
 
 ## Ringkasan Materi
 
-.
+Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu seperti judul dan Object itu bisa dijadikan berbagai macam seperti isi, inti dari pemrograman, dan juga proses bagaimana kode pemrograman tersebut disusun.
 
 ## Percobaan
 
 ### Percobaan 1
 
 1.![screenshot](img2/Percobaan1-Nomor1.PNG)
+2.Karyawan.
+3.ID, Nama, Jenis Kelamin, Jabatan, dan Gaji.
+4.tampilkanDataKaryawan.
+
 
 Link menuju kode program : [Klik disini](D:\TI POLINEMA\All About Programming (3rd Semester)\Pemrograman Berbasis Objek\Tugas\laporan-praktikum-pbo-master\src\1_Pengantar_Konsep_PBO/Sepeda.java)
 (D:\TI POLINEMA\All About Programming (3rd Semester)\Pemrograman Berbasis Objek\Tugas\laporan-praktikum-pbo-master\src\1_Pengantar_Konsep_PBO/SepedaDemo.java)
 
 ### Percobaan 2
-
-(berisi penjelasan percobaan 2. Jika ada rujukan ke file program, bisa dibuat linknya di sini.)
-
-`contoh screenshot yang benar, menampilkan 3 komponen, yaitu struktur project, kode program, dan hasil kompilasi`
 
 ![contoh screenshot](img/ScreenShot-Sepeda2.PNG)
 
