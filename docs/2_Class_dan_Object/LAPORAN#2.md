@@ -22,63 +22,46 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 
 ### Percobaan 2
 
-3.
-[link ke kode program](../../src/2_Class_dan_Object/Mahasiswa.java)
+3.[link ke kode program](../../src/2_Class_dan_Object/Mahasiswa.java)
 
-5.
-[link ke kode program](../../src/2_Class_dan_Object/TestMahasiswa.java)
+5.[link ke kode program](../../src/2_Class_dan_Object/TestMahasiswa.java)
 
-6.
-[screenshot](img2/Percobaan2-Nomor6.PNG)
+6.[screenshot](img2/Percobaan2-Nomor6.PNG)
 
-7.
-Pendeklarasian atributnya akan dilakukan di void tampilBiodata.
+7.Pendeklarasian atributnya akan dilakukan di void tampilBiodata.
 
-8.
-Pendeklarasian methodnya akan dilakukan di main file pada java.
+8.Pendeklarasian methodnya akan dilakukan di main file pada java.
 
-9.
-Ada 4
+9.Ada 4
 
-10.
-Menginput bahwa NIM (Nomor Induk Mahasiswa) pada mahasiswa tersebut adalah 101.
+10.Menginput bahwa NIM (Nomor Induk Mahasiswa) pada mahasiswa tersebut adalah 101.
 
-11.
-Menampilkan semua data yang telah dimasukkan ke dalam suatu atribut untuk dijalankan.
+11.Menampilkan semua data yang telah dimasukkan ke dalam suatu atribut untuk dijalankan.
 
-12.
-[screenshot](img2/Percobaan2-Nomor12.PNG)
+12.[screenshot](img2/Percobaan2-Nomor12.PNG)
 
 
 ## Percobaan 3
 
-3.
-[link ke kode program](../../src/2_Class_dan_Object/Barang.java)
+3.[link ke kode program](../../src/2_Class_dan_Object/Barang.java)
 
-5.
-[link ke kode program](../../src/2_Class_dan_Object/TestBarang.java)
+5.[link ke kode program](../../src/2_Class_dan_Object/TestBarang.java)
 
-6.
-[screenshot](img2/Percobaan3-Nomor6.PNG)
+6.[screenshot](img2/Percobaan3-Nomor6.PNG)
 
-7. 
-Menambahkan suatu method yang didalamnya terkandung atribut.
+7. Menambahkan suatu method yang didalamnya terkandung atribut.
 
-8. 
-Return yaitu mengembalikan suatu proses yang dimana ketika kita menjalankan suatu program, method yang ditambahkan ke dalam suatu atribut akan dikembalikan lagi dengan hasil yang baru atau tetap. Method harus memiliki return ketika ada perubahan atau perulangan.
+8. Return yaitu mengembalikan suatu proses yang dimana ketika kita menjalankan suatu program, method yang ditambahkan ke dalam suatu atribut akan dikembalikan lagi dengan hasil yang baru atau tetap. Method harus memiliki return ketika ada perubahan atau perulangan.
 
 ## Tugas
 
-1.
-[screenshot](img2/Tugas-Nomor1.PNG)
+1.[screenshot](img2/Tugas-Nomor1.PNG)
 
-2.
-[link ke kode program](../../src/2_Class_dan_Object/SewaGame.java)
-[link ke kode program](../../src/2_Class_dan_Object/SewaGameMain.java)
+2.[link ke kode program](../../src/2_Class_dan_Object/SewaGame.java)
+  [link ke kode program](../../src/2_Class_dan_Object/SewaGameMain.java)
 
-3.
-[link ke kode program](../../src/2_Class_dan_Object/Lingkaran.java)
-[link ke kode program](../../src/2_Class_dan_Object/LingkaranMain.java)
+3.[link ke kode program](../../src/2_Class_dan_Object/Lingkaran.java)
+  [link ke kode program](../../src/2_Class_dan_Object/LingkaranMain.java)
 
 4.
 
