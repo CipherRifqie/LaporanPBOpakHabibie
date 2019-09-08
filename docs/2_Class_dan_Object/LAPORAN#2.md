@@ -12,10 +12,10 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 
 ### Percobaan 1
 
-1.![screenshot](img2/Percobaan1-Nomor1.PNG)
-2.Karyawan.
-3.ID, Nama, Jenis Kelamin, Jabatan, dan Gaji.
-4.tampilkanDataKaryawan.
+(1.![screenshot](img2/Percobaan1-Nomor1.PNG)
+(2.Karyawan.
+(3.ID, Nama, Jenis Kelamin, Jabatan, dan Gaji.
+(4.tampilkanDataKaryawan.
 
 
 Link menuju kode program : [Klik disini](D:\TI POLINEMA\All About Programming (3rd Semester)\Pemrograman Berbasis Objek\Tugas\laporan-praktikum-pbo-master\src\1_Pengantar_Konsep_PBO/Sepeda.java)
