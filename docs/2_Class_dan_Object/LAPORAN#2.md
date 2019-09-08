@@ -24,7 +24,7 @@ tampilkanDataKaryawan.
 ### Percobaan 2
 
 3.
-![link ke kode program](src/2_Class_dan_Object/Mahasiswa.java)
+![link ke kode program](../../src/2_Class_dan_Object/Mahasiswa.java)
 
 5.
 ink kode program : [ini contoh link ke kode program](D:\TI POLINEMA\All About Programming (3rd Semester)\Pemrograman Berbasis Objek\Tugas\laporan-praktikum-pbo-master\src\1_Pengantar_Konsep_PBO/SepedaGunung.java)
