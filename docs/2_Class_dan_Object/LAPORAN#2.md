@@ -23,9 +23,11 @@ tampilkanDataKaryawan.
 
 ### Percobaan 2
 
-![contoh screenshot](img/ScreenShot-Sepeda2.PNG)
+3.
+![link ke kode program](D:\TI POLINEMA\All About Programming (3rd Semester)\Pemrograman Berbasis Objek\Tugas\laporan-praktikum-pbo-master\src\2_Class_dan_Object/Mahasiswa.java)
 
-Contoh link kode program : [ini contoh link ke kode program](D:\TI POLINEMA\All About Programming (3rd Semester)\Pemrograman Berbasis Objek\Tugas\laporan-praktikum-pbo-master\src\1_Pengantar_Konsep_PBO/SepedaGunung.java)
+5.
+ink kode program : [ini contoh link ke kode program](D:\TI POLINEMA\All About Programming (3rd Semester)\Pemrograman Berbasis Objek\Tugas\laporan-praktikum-pbo-master\src\1_Pengantar_Konsep_PBO/SepedaGunung.java)
 
 ## Pertanyaan
 
