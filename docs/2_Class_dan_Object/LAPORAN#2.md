@@ -12,7 +12,7 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 
 ### Percobaan 1
 
-1.[screenshot](img2/Percobaan1-Nomor1.PNG)
+1.(img2/Percobaan1-Nomor1.PNG)
 
 2.Karyawan.
 
