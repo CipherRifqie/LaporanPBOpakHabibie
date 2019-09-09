@@ -23,9 +23,9 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 
 ### Percobaan 2
 
-3.[link ke kode program](../../src/2_Class_dan_Object/Mahasiswa.java)
+3.[link ke kode program](../../src/2_Class_dan_Object/Percobaan2/Mahasiswa1841720065Rifqie.java)
 
-5.[link ke kode program](../../src/2_Class_dan_Object/TestMahasiswa.java)
+5.[link ke kode program](../../src/2_Class_dan_Object/Percobaan2/TestMahasiswa1841720065Rifqie.java)
 
 6. Screenshot:
 ![screenshot](img2/Percobaan2-Nomor6.PNG)
