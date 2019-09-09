@@ -62,15 +62,18 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 1. Screenshot:
 ![screenshot](img2/Tugas-Nomor1.PNG)
 
-2.
+2. Screenshot:
+![screenshot](img2/Tugas-Nomor2.PNG)
 [link ke kode program](../../src/2_Class_dan_Object/Tugas1/SewaGame1841720065Rifqie.java)
 [link ke kode main program](../../src/2_Class_dan_Object/Tugas1/SewaGameMain1841720065Rifqie.java)
 
-3.
+3. Screenshot:
+![screenshot](img2/Tugas-Nomor3.PNG)
 [link ke kode program](../../src/2_Class_dan_Object/Tugas2/Lingkaran1841720065Rifqie.java)
 [link ke kode main program](../../src/2_Class_dan_Object/Tugas2/LingkaranMain1841720065Rifqie.java)
 
-4.
+4. Screenshot:
+![screenshot](img2/Tugas-Nomor4.PNG)
 [link ke kode program](../../src/2_Class_dan_Object/Tugas3/DiscountedPackage1841720065Rifqie.java)
 [link ke kode main program](../../src/2_Class_dan_Object/Tugas3/DiscountedPackageMain1841720065Rifqie.java)
 
