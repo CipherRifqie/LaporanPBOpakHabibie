@@ -41,7 +41,7 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 11.Menampilkan semua data yang telah dimasukkan ke dalam suatu atribut untuk dijalankan.
 
 12. Screenshot:
-![screenshot](img2/Percobaan2-Nomor12.PNG)
+![screenshot](img2/Percobaan2-Nomor10.PNG)
 
 
 ## Percobaan 3
