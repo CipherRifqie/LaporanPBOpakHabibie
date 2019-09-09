@@ -12,7 +12,8 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 
 ### Percobaan 1
 
-1.(img2/Percobaan1-Nomor1.PNG)
+1. Screenshot:
+![screenshot](img2/Percobaan1-Nomor1.PNG)
 
 2.Karyawan.
 
@@ -26,7 +27,8 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 
 5.[link ke kode program](../../src/2_Class_dan_Object/TestMahasiswa.java)
 
-6.[screenshot](img2/Percobaan2-Nomor6.PNG)
+6. Screenshot:
+![screenshot](img2/Percobaan2-Nomor6.PNG)
 
 7.Pendeklarasian atributnya akan dilakukan di void tampilBiodata.
 
@@ -38,7 +40,8 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 
 11.Menampilkan semua data yang telah dimasukkan ke dalam suatu atribut untuk dijalankan.
 
-12.[screenshot](img2/Percobaan2-Nomor12.PNG)
+12. Screenshot:
+![screenshot](img2/Percobaan2-Nomor12.PNG)
 
 
 ## Percobaan 3
@@ -47,7 +50,8 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 
 5.[link ke kode program](../../src/2_Class_dan_Object/TestBarang.java)
 
-6.[screenshot](img2/Percobaan3-Nomor6.PNG)
+6. Screenshot:
+![screenshot](img2/Percobaan3-Nomor6.PNG)
 
 7. Menambahkan suatu method yang didalamnya terkandung atribut.
 
@@ -55,7 +59,8 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 
 ## Tugas
 
-1.[screenshot](img2/Tugas-Nomor1.PNG)
+1. Screenshot:
+![screenshot](img2/Tugas-Nomor1.PNG)
 
 2.[link ke kode program](../../src/2_Class_dan_Object/SewaGame.java)
   [link ke kode program](../../src/2_Class_dan_Object/SewaGameMain.java)
