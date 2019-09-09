@@ -73,7 +73,7 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 
 ## Kesimpulan
 
-(Class dan Object memiliki atribut dan method sesuai dengan apa yang diinginkan oleh programmernya dan memiliki aturan tertentu.)
+Class dan Object memiliki atribut dan method sesuai dengan apa yang diinginkan oleh programmernya dan memiliki aturan tertentu.
 
 ## Pernyataan Diri
 
