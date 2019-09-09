@@ -25,7 +25,7 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 
 3.[link ke kode program](../../src/2_Class_dan_Object/Percobaan2/Mahasiswa1841720065Rifqie.java)
 
-5.[link ke kode program](../../src/2_Class_dan_Object/Percobaan2/TestMahasiswa1841720065Rifqie.java)
+5.[link ke kode main program](../../src/2_Class_dan_Object/Percobaan2/TestMahasiswa1841720065Rifqie.java)
 
 6. Screenshot:
 ![screenshot](img2/Percobaan2-Nomor6.PNG)
@@ -41,14 +41,14 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 11.Menampilkan semua data yang telah dimasukkan ke dalam suatu atribut untuk dijalankan.
 
 12. Screenshot:
-![screenshot](img2/Percobaan2-Nomor10.PNG)
+![screenshot](img2/Percobaan2-Nomor12.PNG)
 
 
 ## Percobaan 3
 
 3.[link ke kode program](../../src/2_Class_dan_Object/Percobaan3/Barang1841720065Rifqie.java)
 
-5.[link ke kode program](../../src/2_Class_dan_Object/Percobaan3/TestBarang1841720065Rifqie.java)
+5.[link ke kode main program](../../src/2_Class_dan_Object/Percobaan3/TestBarang1841720065Rifqie.java)
 
 6. Screenshot:
 ![screenshot](img2/Percobaan3-Nomor6.PNG)
@@ -62,14 +62,17 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 1. Screenshot:
 ![screenshot](img2/Tugas-Nomor1.PNG)
 
-2.[link ke kode program](../../src/2_Class_dan_Object/Tugas1/SewaGame1841720065Rifqie.java)
-  [link ke kode program](../../src/2_Class_dan_Object/Tugas1/SewaGameMain1841720065Rifqie.java)
+2.
+[link ke kode program](../../src/2_Class_dan_Object/Tugas1/SewaGame1841720065Rifqie.java)
+[link ke kode main program](../../src/2_Class_dan_Object/Tugas1/SewaGameMain1841720065Rifqie.java)
 
-3.[link ke kode program](../../src/2_Class_dan_Object/Tugas2/Lingkaran1841720065Rifqie.java)
-  [link ke kode program](../../src/2_Class_dan_Object/Tugas2/LingkaranMain1841720065Rifqie.java)
+3.
+[link ke kode program](../../src/2_Class_dan_Object/Tugas2/Lingkaran1841720065Rifqie.java)
+[link ke kode main program](../../src/2_Class_dan_Object/Tugas2/LingkaranMain1841720065Rifqie.java)
 
-4.[link ke kode program](../../src/2_Class_dan_Object/Tugas3/DiscountedPackage1841720065Rifqie.java)
-  [link ke kode program](../../src/2_Class_dan_Object/Tugas3/DiscountedPackageMain1841720065Rifqie.java)
+4.
+[link ke kode program](../../src/2_Class_dan_Object/Tugas3/DiscountedPackage1841720065Rifqie.java)
+[link ke kode main program](../../src/2_Class_dan_Object/Tugas3/DiscountedPackageMain1841720065Rifqie.java)
 
 ## Kesimpulan
 
