@@ -2,11 +2,12 @@
 
 ## Kompetensi
 
-(PEMROGRAMAN BERBASIS OBJEK)
+1. Perbedaan paradigma berorientasi objek dengan paradigma struktural
+2. Konsep dasar PBO
 
 ## Ringkasan Materi
 
-(Setiap kejadian di suatu waktu, ada beberapa komponen yang membentuk suatu objek yang dimana komponen tersebut mampu bekerja secara langsung tanpa perlu melihat detailnya.)
+Setiap kejadian di suatu waktu, ada beberapa komponen yang membentuk suatu objek yang dimana komponen tersebut mampu bekerja secara langsung tanpa perlu melihat detailnya.
 
 ## Percobaan
 
