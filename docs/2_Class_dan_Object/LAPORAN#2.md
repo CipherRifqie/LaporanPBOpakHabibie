@@ -12,10 +12,11 @@ Class dan Object merupakan gabungan dari suatu program. Ibaratnya class itu sepe
 
 ### Percobaan 1
 
-1. Screenshot:
+1. Diagram Class Karyawan, Screenshot:
 ![screenshot](img2/Percobaan1-Nomor1.PNG)
 
-2.Karyawan.
+2. Sebutkan Class apa saja yang bisa dibuat dari studi kasus 1
+Jawaban : Karyawan.
 
 3.ID, Nama, Jenis Kelamin, Jabatan, dan Gaji.
 
