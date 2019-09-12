@@ -1,4 +1,4 @@
-public class KipasAnginLantai extends KipasAngin
+public class KipasAnginDinding1841720065Rifqie extends KipasAngin1841720065Rifqie
 {
     private int harga;
     

@@ -1,4 +1,4 @@
-public class SepedaGunung extends Sepeda
+public class SepedaGunung1841720065Rifqie extends Sepeda1841720065Rifqie
 {
     private String tipeSuspensi;
     

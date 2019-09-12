@@ -1,4 +1,4 @@
-public class Sepeda {
+public class Sepeda1841720065Rifqie {
    private String merek;
    private int kecepatan;
    private int gear;

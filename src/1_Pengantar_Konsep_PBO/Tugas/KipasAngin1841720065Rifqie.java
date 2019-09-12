@@ -1,4 +1,4 @@
-public class KipasAngin {
+public class KipasAngin1841720065Rifqie {
     private String merek;
     private String modePutar;
     private int gear;

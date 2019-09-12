@@ -1,9 +1,9 @@
-public class KipasAnginMain {
+public class KipasAnginMain1841720065Rifqie {
     public static void main(String[] args) {
         //Make an object first
-        KipasAnginDinding kps1 = new KipasAnginDinding();
-        KipasAnginDinding kps2 = new KipasAnginDinding();
-        KipasAnginLantai kps3 = new KipasAnginLantai();
+        KipasAnginDinding1841720065Rifqie kps1 = new KipasAnginDinding1841720065Rifqie();
+        KipasAnginDinding1841720065Rifqie kps2 = new KipasAnginDinding1841720065Rifqie();
+        KipasAnginLantai1841720065Rifqie kps3 = new KipasAnginLantai1841720065Rifqie();
         
         // Panggil method didalam objek kipas angin
         kps1.setMerek("Maspion");

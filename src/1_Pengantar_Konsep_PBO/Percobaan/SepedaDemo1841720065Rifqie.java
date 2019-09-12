@@ -1,9 +1,9 @@
-public class SepedaDemo {
+public class SepedaDemo1841720065Rifqie {
     public static void main(String[] args) {
         //Make an object first
-        Sepeda spd1 = new Sepeda();
-        Sepeda spd2 = new Sepeda();
-        SepedaGunung spd3 = new SepedaGunung();
+        Sepeda1841720065Rifqie spd1 = new Sepeda1841720065Rifqie();
+        Sepeda1841720065Rifqie spd2 = new Sepeda1841720065Rifqie();
+        SepedaGunung1841720065Rifqie spd3 = new SepedaGunung1841720065Rifqie();
         
         // Panggil method didalam objek sepeda
         spd1.setMerek("Polygon");
