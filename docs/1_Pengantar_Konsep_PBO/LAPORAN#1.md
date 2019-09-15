@@ -62,11 +62,11 @@ Karena ada kata “extends” yang fungsinya sebagai pewaris dan bisa diturunkan
 Ini adalah contoh kode KipasAngin.java
 ![screenshot](img/ScreenShot-Kipas1.PNG)
 Ini adalah contoh kode main dari KipasAnginMain.java
-![screenshot](img/Screenshot-Kipas2.PNG)
+![screenshot](img/ScreenShot-Kipas2.PNG)
 Ini adalah contoh kode KipasAnginLantai.java 
-![screenshot](img/Screenshot-Kipas3.PNG)
+![screenshot](img/ScreenShot-Kipas3.PNG)
 Dan Ini adalah contoh kode KipasAnginDinding.java
-![screenshot](img/Screenshot-Kipas4.PNG)
+![screenshot](img/ScreenShot-Kipas4.PNG)
 
 link menuju kode program : [KipasAngin.java](../../src/1_Pengantar_Konsep_PBO/Tugas/KipasAngin1841720065Rifqie.java)
 
