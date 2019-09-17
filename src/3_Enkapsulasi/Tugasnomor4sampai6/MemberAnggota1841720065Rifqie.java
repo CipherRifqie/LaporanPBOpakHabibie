@@ -1,11 +1,12 @@
-public class Anggota{
+package Tugasnomor4sampai6;
+public class MemberAnggota1841720065Rifqie{
     private String ktp;
     private String nama;
     private int limitPinjam;
     private int pinjam;
     private int angsur;
     
-  Anggota(String ktp, String nama,int limitPinjam){
+  MemberAnggota1841720065Rifqie(String ktp, String nama,int limitPinjam ){
         this.nama = nama;
         this.ktp = ktp;
         this.limitPinjam = limitPinjam;
@@ -28,10 +29,12 @@ public class Anggota{
         this.pinjam = pinjam1;
         return this.pinjam;   
     }
+    
     public int angsur(int angsur1){
         this.angsur = angsur1;
         return this.angsur;   
     }
+    
     public int getJumlahPinjam(){
         if( this.pinjam >= 5000000 && pinjam <= 0.1){
             System.out.println("Maaf jumlah pinjaman melebihi limit");

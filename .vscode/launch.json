@@ -6,6 +6,78 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TestKoperasi1841720065Rifqie",
+            "request": "launch",
+            "mainClass": "Tugasnomor4sampai6.TestKoperasi1841720065Rifqie"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestKoperasi",
+            "request": "launch",
+            "mainClass": "Tugasnomor4sampai6.TestKoperasi"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestKoperasi1841720065Rifqie",
+            "request": "launch",
+            "mainClass": "TestKoperasi1841720065Rifqie"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestKoperasi1841720144Rizqi",
+            "request": "launch",
+            "mainClass": "TestKoperasi1841720144Rizqi"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestKoperasi1841720144Rizqi",
+            "request": "launch",
+            "mainClass": "Tugas3.TestKoperasi1841720144Rizqi"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestKoperasi1841720065Rifqie",
+            "request": "launch",
+            "mainClass": "Tugas3.TestKoperasi1841720065Rifqie"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EncapTest1841720065Rifqie2",
+            "request": "launch",
+            "mainClass": "EncapTest1841720065Rifqie2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EncapTest1841720065Rifqie",
+            "request": "launch",
+            "mainClass": "EncapTest1841720065Rifqie"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MotorMain1841720065Rifqie",
+            "request": "launch",
+            "mainClass": "MotorMain1841720065Rifqie"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestKoperasi",
+            "request": "launch",
+            "mainClass": "Tugas3.TestKoperasi"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EncapTest",
+            "request": "launch",
+            "mainClass": "EncapTest"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MotorMain",
+            "request": "launch",
+            "mainClass": "MotorMain"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - KipasAnginMain1841720065Rifqie",
             "request": "launch",
             "mainClass": "KipasAnginMain1841720065Rifqie"

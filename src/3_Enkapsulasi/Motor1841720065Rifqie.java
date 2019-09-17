@@ -1,4 +1,4 @@
-public class Motor {
+public class Motor1841720065Rifqie{
     private int kecepatan = 0;
     private boolean kontakOn = false;
     
@@ -11,7 +11,7 @@ public class Motor {
     }
     public void tambahKecepatan(){
         if (kontakOn == true){
-            kecepatan += 5;
+            kecepatan += 5*20;
         }
         else{
             System.out.println("Engine off, no increases from speed");

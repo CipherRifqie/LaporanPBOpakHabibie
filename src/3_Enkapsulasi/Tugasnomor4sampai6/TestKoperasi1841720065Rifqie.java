@@ -1,11 +1,11 @@
 
-package Tugas3;
+package Tugasnomor4sampai6;
 
 import java.util.Scanner;
 
-public class TestKoperasi {
+public class TestKoperasi1841720065Rifqie {
     public static void main(String[] args) {
-        Anggota donny = new Anggota("111333444", "Donny", 5000000);
+        MemberAnggota1841720065Rifqie donny = new MemberAnggota1841720065Rifqie("111333444", "Donny", 5000000);
         
         Scanner in = new Scanner(System.in);
         String ktp;

@@ -29,7 +29,10 @@ Peringkasan pada kode pemrograman yang meliputi Private Attribute, Access Modifi
 3. Ubah class Motor sehingga kecepatan maksimalnya adalah 100! 
 
     Jawaban :
+![screenshot](img3/Screenshot-PertanyaanPercobaan2.PNG)
+Ini adalah kode programnya : [link kode program](../../src/3_Enkapsulasi/Motor1841720065Rifqie.java)
 
+    Dan ini adalah kode main programnya : [link main kode program](../../src/3_Enkapsulasi/MotorMain1841720065Rifqie.java)
 
 ### 3.6 Pertanyaan Percobaan 3 dan 4
     
@@ -42,7 +45,8 @@ Peringkasan pada kode pemrograman yang meliputi Private Attribute, Access Modifi
     Jawaban : Menggunakan method tersebut sebagai tempat penyimpanan pada suatu objek “Simpanan” yang nantinya akan ditampilkan saat program tersebut dijalankan.
 
 3.	Method apa yang digunakan untk menambah saldo?
-Jawaban : Setor
+
+    Jawaban : Setor
  
 4.	Apa yang dimaksud konstruktor?
 
@@ -85,26 +89,27 @@ Jawaban : Setor
 
 ## Tugas
 
-1.Screenshot class diagram sewa game :
-![screenshot](img2/Tugas-Nomor1.PNG)
+1.![screenshot](img3/Screenshot-Tugas1.PNG) Ini adalah kode javanya : [link kode program](../../src/3_Enkapsulasi/EncapDemo1841720065Rifqie.java)
 
-2.Screenshot :
-![screenshot](img2/Tugas-Nomor2.PNG)
-[link ke kode program SewaGame.java](../../src/2_Class_dan_Object/Tugas1/SewaGame1841720065Rifqie.java)
+Dan ini adalah kode main programnya : [link main kode program](../../src/3_Enkapsulasi/EncapTest1841720065Rifqie.java)
+    
+2.Karena pada pernyataan if else, age (usia) yang lebih dari 30, masih tetap dinyatakan sebagai umur 30 tahun.
 
-[link ke kode main program SewaGameMain.java](../../src/2_Class_dan_Object/Tugas1/SewaGameMain1841720065Rifqie.java)
+3.![screenshot](img3/Screenshot-Tugas3.PNG) Ini adalah kode javanya : [link kode program](../../src/3_Enkapsulasi/EncapDemo1841720065Rifqie.java)
 
-3.Screenshot :
-![screenshot](img2/Tugas-Nomor3.PNG)
-[link ke kode program Lingkaran.java](../../src/2_Class_dan_Object/Tugas2/Lingkaran1841720065Rifqie.java)
+Dan ini adalah kode main programnya : [link main kode program](../../src/3_Enkapsulasi/EncapTest1841720065Rifqie.java)
 
-[link ke kode main program LingkaranMain.java](../../src/2_Class_dan_Object/Tugas2/LingkaranMain1841720065Rifqie.java)
+4.![screenshot](img3/Screenshot-Tugas4.PNG) Ini adalah kode javanya : [link kode program](../../src/3_Enkapsulasi/Tugasnomor4sampai6/MemberAnggota1841720065Rifqie.java)
 
-4.Screenshot :
-![screenshot](img2/Tugas-Nomor4.PNG)
-[link ke kode program BarangDiskon.java](../../src/2_Class_dan_Object/Tugas3/DiscountedPackage1841720065Rifqie.java)
+Dan ini adalah main kode javanya [link main kode program](../../src/3_Enkapsulasi/Tugasnomor4sampai6/TestKoperasi1841720065Rifqie.java)
 
-[link ke kode main program BarangDiskonMain.java](../../src/2_Class_dan_Object/Tugas3/DiscountedPackageMain1841720065Rifqie.java)
+5.![screenshot](img3/Screenshot-Tugas5.PNG) Ini adalah kode javanya : [link kode program](../../src/3_Enkapsulasi/Tugasnomor4sampai6/MemberAnggota1841720065Rifqie.java)
+
+Dan ini adalah main kode javanya [link main kode program](../../src/3_Enkapsulasi/Tugasnomor4sampai6/TestKoperasi1841720065Rifqie.java)
+
+6.![screenshot](img3/Screenshot-Tugas6.PNG) Ini adalah kode javanya : [link kode program](../../src/3_Enkapsulasi/Tugasnomor4sampai6/MemberAnggota1841720065Rifqie.java)
+
+Dan ini adalah main kode javanya [link main kode program](../../src/3_Enkapsulasi/Tugasnomor4sampai6/TestKoperasi1841720065Rifqie.java)
 
 ## Kesimpulan
 
