@@ -40,7 +40,7 @@ Laptop l = new Laptop("Thinkpad", new Processor("Intel i5", 3));
 Bagaimanakah hasil program saat dijalankan, apakah ada perubahan ?
 
     Jawaban : 
-    ![screenshot](img4/Screenshot-Percobaan1-Nomor6.PNG)
+    ![screenshot](img4/ScreenShot-Percobaan1-Nomor6.PNG)
     P adalah objek dari processor. Iya, variabel new yang lama tidak ditampilkan, alhasil variable new yang baru lah yang hanya dapat ditampilkan.
 
 ### Pertanyaan Percobaan 2
@@ -68,7 +68,7 @@ System.out.println(p.getMobil().getMerk());
 Jadi untuk apakah sintaks p.getMobil().getMerk() yang ada di dalam method main tersebut?
 
     Jawaban :
-    ![screenshot](img4/Screenshot-Percobaan2-Nomor6.PNG)
+    ![screenshot](img4/ScreenShot-Percobaan2-Nomor6.PNG)
     Menampilkan merk mobil pada main class tersebut.
     
 
@@ -82,7 +82,7 @@ Pegawai masinis = new Pegawai("1234", "Spongebob Squarepants");
 KeretaApi keretaApi = new KeretaApi("Gaya Baru", "Bisnis", masinis); 
 System.out.println(keretaApi.info());
 
-    Jawaban :  ![screenshot](img4/Screenshot-Percobaan3-Nomor2.PNG)
+    Jawaban :  ![screenshot](img4/ScreenShot-Percobaan3-Nomor2.PNG)
 
     Ini adalah kode main programnya : [link main kode program](../../src/4_Relasi_Class/MainPercobaan3.java)
 
@@ -92,7 +92,7 @@ System.out.println(keretaApi.info());
 
 4. Perbaiki class KeretaApi sehingga program dapat berjalan !
 
-    Jawaban : ![screenshot](img4/Screenshot-Percobaan3-Nomor4.PNG)
+    Jawaban : ![screenshot](img4/ScreenShot-Percobaan3-Nomor4.PNG)
 
 
 ### Pertanyaan Percobaan 4
@@ -116,45 +116,45 @@ info += "Penumpang: " + penumpang.info() + "\n";
 4. Instansiasi objek baru budi dengan tipe Penumpang, kemudian masukkan objek baru tersebut pada gerbong dengan gerbong.setPenumpang(budi, 1). Apakah yang terjadi ?
 
     Jawaban : 
-    ![screenshot](img4/Screenshot-Percobaan4-Nomor4.PNG)
+    ![screenshot](img4/ScreenShot-Percobaan4-Nomor4.PNG)
     Error, karena hanya bisa menumpang 1 orang saja.
  
 5. Modifikasi program sehingga tidak diperkenankan untuk menduduki kursi yang sudah ada penumpang lain! 
 
-    Jawaban : ![screenshot](img4/Screenshot-Percobaan4-Nomor5.PNG)
+    Jawaban : ![screenshot](img4/ScreenShot-Percobaan4-Nomor5.PNG)
 
 ## Tugas
 
 Didalam tugas ini, saya akan menampilkan detail pada suatu mobil.
 
-1. Ini adalah detail mobilnya : ![screenshot](img4/Screenshot-Tugas-MobilDetail.PNG)
+1. Ini adalah detail mobilnya : ![screenshot](img4/ScreenShot-Tugas-MobilDetail.PNG)
 
 Ini adalah kode programnya : [link kode program](../../src/4_Relasi_Class/MobilDetail1841720065Rifqie.java)
 
-2. Ini adalah komponen handling mobilnya : ![screenshot](img4/Screenshot-Tugas-HandlingMobil.PNG)
+2. Ini adalah komponen handling mobilnya : ![screenshot](img4/ScreenShot-Tugas-HandlingMobil.PNG)
 
 Ini adalah kode programnya : [link kode program](../../src/4_Relasi_Class/HandlingMobil1841720065Rifqie.java)
 
 3. Ini adalah komponen mesin mobilnya :
-![screenshot](img4/Screenshot-Tugas-MesinMobil.PNG)
+![screenshot](img4/ScreenShot-Tugas-MesinMobil.PNG)
 
 Ini adalah kode programnya : [link kode program](../../src/4_Relasi_Class/MesinMobil1841720065Rifqie.java)
 
-4. Ini adalah merk mobilnya :![screenshot](img4/Screenshot-Tugas-MerkMobil.PNG)
+4. Ini adalah merk mobilnya :![screenshot](img4/ScreenShot-Tugas-MerkMobil.PNG)
 
 Ini adalah kode programnya : [link kode program](../../src/4_Relasi_Class/MerkMobil1841720065Rifqie.java)
 
 5. Ini adalah detail kecepatan mobilnya : 
-![screenshot](img4/Screenshot-Tugas-VelocityMobil.PNG)
+![screenshot](img4/ScreenShot-Tugas-VelocityMobil.PNG)
 
 Ini adalah kode programnya : [link kode program](../../src/4_Relasi_Class/VelocityMobil1841720065Rifqie.java)
 
 6. Ini adalah harga mobilnya :
-![screenshot](img4/Screenshot-Tugas-HargaMobil.PNG)
+![screenshot](img4/ScreenShot-Tugas-HargaMobil.PNG)
 
 Ini adalah kode programnya : [link kode program](../../src/4_Relasi_Class/HargaMobil1841720065Rifqie.java)
 
-7. Ini adalah main kode dari seluruh class yang telah dibuat : ![screenshot](img4/Screenshot-Tugas-MainTugas1841720065Rifqie.PNG)
+7. Ini adalah main kode dari seluruh class yang telah dibuat : ![screenshot](img4/ScreenShot-Tugas-MainTugas1841720065Rifqie.PNG)
 
 Ini adalah link menuju main kode programnya : [link kode program](../../src/4_Relasi_Class/MainTugas1841720065Rifqie.java)
 
