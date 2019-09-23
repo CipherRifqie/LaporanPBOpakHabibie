@@ -12,104 +12,156 @@ Merealisasikan bagaimana merelasikan 2 class atau 2 judul pada kode program (ata
 
 ## Percobaan
 
-### 3.3 Pertanyaan Percobaan 2
+### Pertanyaan Percobaan 1
+1. Di dalam class Processor dan class Laptop , terdapat method setter dan getter untuk masing masing atributnya. Apakah gunanya method setter dan getter tersebut ?
 
-1. Pada class TestMobil, saat kita menambah kecepatan untuk pertama kalinya, mengapa muncul peringatan “Kecepatan tidak bisa bertambah karena Mesin Off!”?
+    Jawaban : Getter yaitu mengambil data, sedangkan Setter yaitu mengatur data.
+  
+2. Di dalam class Processor dan class Laptop, masing masing terdapat konstruktor default dan konstruktor berparameter. Bagaimanakah beda penggunaan dari kedua jenis konstruktor tersebut ?
 
-    Jawaban : Karena status dalam mobil tersebut masih dalam kontakOff.
-
-2. Mengapa atribut kecepatan dan kontakOn diset private?
-
-    Jawaban : Karena akses tersebut hanya untuk menjalankan status privat saja (hanya sebagian), tidak untuk status public (mengakses semuanya)
-
-3. Ubah class Motor sehingga kecepatan maksimalnya adalah 100! 
-
-    Jawaban :
-![screenshot](img3/Screenshot-PertanyaanPercobaan2.PNG)
-Ini adalah kode programnya : [link kode program](../../src/3_Enkapsulasi/Motor1841720065Rifqie.java)
-
-    Dan ini adalah kode main programnya : [link main kode program](../../src/3_Enkapsulasi/MotorMain1841720065Rifqie.java)
-
-### 3.6 Pertanyaan Percobaan 3 dan 4
-    
-1.	Apa yang dimaksud getter dan setter?
-
-    Jawaban : 2 method yang bertugas untuk mengambil dan mengisi data ke dalam objek.
-
-2.	Apa kegunaan dari method getSimpanan()?
-
-    Jawaban : Menggunakan method tersebut sebagai tempat penyimpanan pada suatu objek “Simpanan” yang nantinya akan ditampilkan saat program tersebut dijalankan.
-
-3.	Method apa yang digunakan untk menambah saldo?
-
-    Jawaban : Setor
+    Jawaban : Memisahkan konstruktor default dan berparameter, fungsinya sebagai sumber yang dimana ketika kita membuat suatu objek baru, konstruktor tersebut dapat mengenalinya.
  
-4.	Apa yang dimaksud konstruktor?
-
-    Jawaban : Method yang dimana deklarasinya tidak memiliki tipe return (tipe untuk mengembalikan lagi pada main objek)
+3. Perhatikan class Laptop, di antara 2 atribut yang dimiliki (merk dan proc), atribut manakah yang bertipe object ?
+Jawaban : Proc.
  
-5.	Sebutkan aturan dalam membuat konstruktor?
+4. Perhatikan class Laptop, pada baris manakah yang menunjukan bahwa class Laptop memiliki relasi dengan class Processor ? 
+
+    Jawaban : 3, 8, 10, 22, 26, dan 31.
+
+5. Perhatikan pada class Laptop , Apakah guna dari sintaks proc.info() ?
+
+    Jawaban : Menampilkan informasi dari Processor pada Laptop tersebut.
+ 
+6. Pada class MainPercobaan1, terdapat baris kode: 
+Laptop l = new Laptop("Thinkpad", p);. 
+Apakah p tersebut ? 
+Dan apakah yang terjadi jika baris kode tersebut diubah menjadi: 
+Laptop l = new Laptop("Thinkpad", new Processor("Intel i5", 3)); 
+Bagaimanakah hasil program saat dijalankan, apakah ada perubahan ?
 
     Jawaban : 
-    
-    -Nama konstruktor harus sama dengan nama class.
+    ![screenshot](img4/Screenshot-Percobaan1-Nomor6.PNG)
+    P adalah objek dari processor. Iya, variabel new yang lama tidak ditampilkan, alhasil variable new yang baru lah yang hanya dapat ditampilkan.
 
-    -Konstruktor tidak memiliki tipe data return.
+### Pertanyaan Percobaan 2
+1. Perhatikan class Pelanggan. Pada baris program manakah yang menunjukan bahwa class Pelanggan memiliki relasi dengan class Mobil dan class Sopir ? 
+Jawaban : 19, 23, 27, 31, dan 43.
 
-    -Konstruktor tidak boleh menggunakan modifier seperti abstract, static, final, dan synchronized.
+2. Perhatikan method hitungBiayaSopir pada class Sopir, serta method hitungBiayaMobil pada class Mobil. Mengapa menurut Anda method tersebut harus memiliki argument hari ? 
+
+    Jawaban : Karena ketika menghitung total biaya pada class Mobil dan Sopir, objek hari itu sebagai patokan dari berapa waktu yang diperlukan.
+
+3. Perhatikan kode dari class Pelanggan. Untuk apakah perintah mobil.hitungBiayaMobil(hari) dan sopir.hitungBiayaSopir(hari) ? 
+
+    Jawaban : Untuk menghitung berapa biaya totalnya.
+
+4. Perhatikan class MainPercobaan2. Untuk apakah sintaks p.setMobil(m) dan p.setSopir(s) ? 
+
+    Jawaban : Untuk menginisialisasi main objek dari Mobil dan Sopir itu.
+
+5. Perhatikan class MainPercobaan2. Untuk apakah proses p.hitungBiayaTotal() tersebut ?
+
+    Jawaban : Untuk menampilkan berapa seluruh biaya totalnya.
  
-6.	Apakah boleh konstruktor bertipe private?
+6. Perhatikan class MainPercobaan2, coba tambahkan pada baris terakhir dari method main dan amati perubahan saat di run! 
+System.out.println(p.getMobil().getMerk()); 
+Jadi untuk apakah sintaks p.getMobil().getMerk() yang ada di dalam method main tersebut?
 
-    Jawaban : Boleh. Namun, tidak lebih dari satu objek dapat dibuat pada satu waktu.
+    Jawaban :
+    ![screenshot](img4/Screenshot-Percobaan2-Nomor6.PNG)
+    Menampilkan merk mobil pada main class tersebut.
+    
+
+### Pertanyaan Percobaan 3
+1. Di dalam method info() pada class KeretaApi, baris this.masinis.info() dan this.asisten.info() digunakan untuk apa ? 
+
+    Jawaban : Menampilkan siapa nama Asisten dan Masinis nya.
+
+2. Buatlah main program baru dengan nama class MainPertanyaan pada package yang sama. Tambahkan kode berikut pada method main() ! 
+Pegawai masinis = new Pegawai("1234", "Spongebob Squarepants"); 
+KeretaApi keretaApi = new KeretaApi("Gaya Baru", "Bisnis", masinis); 
+System.out.println(keretaApi.info());
+
+    Jawaban :  ![screenshot](img4/Screenshot-Percobaan3-Nomor2.PNG)
+
+    Ini adalah kode main programnya : [link main kode program](../../src/4_Relasi_Class/MainPercobaan3.java)
+
+3. Apa hasil output dari main program tersebut? Mengapa hal tersebut dapat terjadi?
+
+    Jawaban : Data setiap masinis, asisten, nama kereta dan kelasnya muncul. Karena pada .info() disetiap class program telah ditambahkan sehingga di main method perlu pula menampilkan seluruhnya dari hasil pembuatan atribut dari class tersebut.
+
+4. Perbaiki class KeretaApi sehingga program dapat berjalan !
+
+    Jawaban : ![screenshot](img4/Screenshot-Percobaan3-Nomor4.PNG)
+
+
+### Pertanyaan Percobaan 4
+1. Pada main program dalam class MainPercobaan4, berapakah jumlah kursi dalam Gerbong A?
+
+    Jawaban : 10
  
-7.	Kapan menggunakan parameter dengan passsing parameter?
+2. Perhatikan potongan kode pada method info() dalam class Kursi. Apa maksud kode tersebut? 
+... 
+if (this.penumpang != null) { 
+info += "Penumpang: " + penumpang.info() + "\n"; 
+} 
+... 
 
-    Jawaban : Ketika pemrograman yang kita jalankan masih berstatus “null”, oleh sebab itu masih belum dapat dikonfirmasi darimana asal parameter tersebut.
+    Jawaban : Menempatkan penumpang ke dalam kursi pada kereta tersebut.
 
-8.	Apa perbedaan atribut class dan instansiasi atribut?
+3. Mengapa pada method setPenumpang() dalam class Gerbong, nilai nomor dikurangi dengan angka 1?
 
-    Jawaban : 	
-    
-    Atribut Class = Cetakan untuk menciptakan suatu instansiasi dari objek.
+    Jawaban : Karena untuk menyatakan bahwa penumpang tersebut telah menempati kursi yang telah disediakan.
+ 
+4. Instansiasi objek baru budi dengan tipe Penumpang, kemudian masukkan objek baru tersebut pada gerbong dengan gerbong.setPenumpang(budi, 1). Apakah yang terjadi ?
 
-    Instansiasi Atribut = Menjalankan dari hasil atribut yang telah ditambahkan suatu objek tersebut.
+    Jawaban : 
+    ![screenshot](img4/Screenshot-Percobaan4-Nomor4.PNG)
+    Error, karena hanya bisa menumpang 1 orang saja.
+ 
+5. Modifikasi program sehingga tidak diperkenankan untuk menduduki kursi yang sudah ada penumpang lain! 
 
-9.	Apa perbedaan class method dan instansiasi method?
-
-    Jawaban : 	
-    
-    Class Method = Kumpulan pernyataan yang dikelompokkan bersama untuk melakukan operasi.
-	
-    Instansiasi Method = Menjalankan operasi yang telah dibuat pada pernyataan tersebut.
-
+    Jawaban : ![screenshot](img4/Screenshot-Percobaan4-Nomor5.PNG)
 
 ## Tugas
 
-1.![screenshot](img3/Screenshot-Tugas1.PNG) Ini adalah kode javanya : [link kode program](../../src/3_Enkapsulasi/EncapDemo1841720065Rifqie.java)
+Didalam tugas ini, saya akan menampilkan detail pada suatu mobil.
 
-Dan ini adalah kode main programnya : [link main kode program](../../src/3_Enkapsulasi/EncapTest1841720065Rifqie.java)
-    
-2.Karena pada pernyataan if else, age (usia) yang lebih dari 30, masih tetap dinyatakan sebagai umur 30 tahun.
+1. Ini adalah detail mobilnya : ![screenshot](img4/Screenshot-Tugas-MobilDetail.PNG)
 
-3.![screenshot](img3/Screenshot-Tugas3.PNG) Ini adalah kode javanya : [link kode program](../../src/3_Enkapsulasi/EncapDemo1841720065Rifqie.java)
+Ini adalah kode programnya : [link kode program](../../src/4_Relasi_Class/MobilDetail1841720065Rifqie.java)
 
-Dan ini adalah kode main programnya : [link main kode program](../../src/3_Enkapsulasi/EncapTest1841720065Rifqie.java)
+2. Ini adalah komponen handling mobilnya : ![screenshot](img4/Screenshot-Tugas-HandlingMobil.PNG)
 
-4.![screenshot](img3/Screenshot-Tugas4.PNG) Ini adalah kode javanya : [link kode program](../../src/3_Enkapsulasi/Tugasnomor4sampai6/MemberAnggota1841720065Rifqie.java)
+Ini adalah kode programnya : [link kode program](../../src/4_Relasi_Class/HandlingMobil1841720065Rifqie.java)
 
-Dan ini adalah main kode javanya [link main kode program](../../src/3_Enkapsulasi/Tugasnomor4sampai6/TestKoperasi1841720065Rifqie.java)
+3. Ini adalah komponen mesin mobilnya :
+![screenshot](img4/Screenshot-Tugas-MesinMobil.PNG)
 
-5.![screenshot](img3/Screenshot-Tugas5.PNG) Ini adalah kode javanya : [link kode program](../../src/3_Enkapsulasi/Tugasnomor4sampai6/MemberAnggota1841720065Rifqie.java)
+Ini adalah kode programnya : [link kode program](../../src/4_Relasi_Class/MesinMobil1841720065Rifqie.java)
 
-Dan ini adalah main kode javanya [link main kode program](../../src/3_Enkapsulasi/Tugasnomor4sampai6/TestKoperasi1841720065Rifqie.java)
+4. Ini adalah merk mobilnya :![screenshot](img4/Screenshot-Tugas-MerkMobil.PNG)
 
-6.![screenshot](img3/Screenshot-Tugas6.PNG) Ini adalah kode javanya : [link kode program](../../src/3_Enkapsulasi/Tugasnomor4sampai6/MemberAnggota1841720065Rifqie.java)
+Ini adalah kode programnya : [link kode program](../../src/4_Relasi_Class/MerkMobil1841720065Rifqie.java)
 
-Dan ini adalah main kode javanya [link main kode program](../../src/3_Enkapsulasi/Tugasnomor4sampai6/TestKoperasi1841720065Rifqie.java)
+5. Ini adalah detail kecepatan mobilnya : 
+![screenshot](img4/Screenshot-Tugas-VelocityMobil.PNG)
+
+Ini adalah kode programnya : [link kode program](../../src/4_Relasi_Class/VelocityMobil1841720065Rifqie.java)
+
+6. Ini adalah harga mobilnya :
+![screenshot](img4/Screenshot-Tugas-HargaMobil.PNG)
+
+Ini adalah kode programnya : [link kode program](../../src/4_Relasi_Class/HargaMobil1841720065Rifqie.java)
+
+7. Ini adalah main kode dari seluruh class yang telah dibuat : ![screenshot](img4/Screenshot-Tugas-MainTugas1841720065Rifqie.PNG)
+
+Ini adalah link menuju main kode programnya : [link kode program](../../src/4_Relasi_Class/MainTugas1841720065Rifqie.java)
+
 
 ## Kesimpulan
 
-Kita dapat meringkas kode tersebut dengan metode Enkapsulasi yang dimana kita bisa melakukan modifikasi Modifier, mengimplementasikan Setter dan Gutter, serta membuat konstruktor dan menginisiasikannya ke dalam pemrograman tersebut. Sehingga tidak perlu lagi melihat bagaimana detail dari kode tersebut.
+Merealisasikan relasi 2 kelas dapat digunakan untuk menyajikan 1 main program tanpa perlu ribet untuk melihat bagaimana detail kodenya.
 ## Pernyataan Diri
 
 Saya menyatakan isi tugas, kode program, dan laporan praktikum ini dibuat oleh saya sendiri. Saya tidak melakukan plagiasi, kecurangan, menyalin/menggandakan milik orang lain.
