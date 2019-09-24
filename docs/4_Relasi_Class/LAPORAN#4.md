@@ -127,6 +127,10 @@ info += "Penumpang: " + penumpang.info() + "\n";
 
 Didalam tugas ini, saya akan menampilkan detail pada suatu mobil.
 
+Berikut adalah diagram classnya : ![screenshot](img4/UML-Tugas-MobilDetail.PNG)
+
+Link menuju diagram classnya ada disini : [diagram class](img4/UML-Tugas-MobilDetail.drawio)
+
 1. Ini adalah detail mobilnya : ![screenshot](img4/ScreenShot-Tugas-MobilDetail.PNG)
 
 Ini adalah kode programnya : [link kode program](../../src/4_Relasi_Class/MobilDetail1841720065Rifqie.java)
