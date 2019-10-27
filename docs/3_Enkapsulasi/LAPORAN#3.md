@@ -68,21 +68,21 @@ Ini adalah kode programnya : [link kode program](../../src/3_Enkapsulasi/Motor18
  
 7.	Kapan menggunakan parameter dengan passsing parameter?
 
-    Jawaban : Ketika pemrograman yang kita jalankan masih berstatus “null”, oleh sebab itu masih belum dapat dikonfirmasi darimana asal parameter tersebut.
+    Jawaban : Saat ada atribut yang membutuhkan nilai yang spesifik.
 
 8.	Apa perbedaan atribut class dan instansiasi atribut?
 
     Jawaban : 	
     
-    Atribut Class = Cetakan untuk menciptakan suatu instansiasi dari objek.
+    Atribut Class = Pembuatan atribut atau objek ke dalam class atau title.
 
-    Instansiasi Atribut = Menjalankan dari hasil atribut yang telah ditambahkan suatu objek tersebut.
+    Instansiasi Atribut = Menjalankan dari hasil atribut.
 
 9.	Apa perbedaan class method dan instansiasi method?
 
     Jawaban : 	
     
-    Class Method = Kumpulan pernyataan yang dikelompokkan bersama untuk melakukan operasi.
+    Class Method = Pembuatan rumus untuk menjalankan suatu atribut.
 	
     Instansiasi Method = Menjalankan operasi yang telah dibuat pada pernyataan tersebut.
 
