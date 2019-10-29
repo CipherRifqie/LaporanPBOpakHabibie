@@ -13,6 +13,9 @@ Merealisasikan bagaimana merelasikan 2 class atau 2 judul pada kode program (ata
 ## Percobaan
 
 ### Pertanyaan Percobaan 1
+Ini adalah UML pada percobaan 1 :
+![screenshot](../../docs/4_Relasi_Class/img4/DiagramPercobaan1.png)
+
 1. Di dalam class Processor dan class Laptop , terdapat method setter dan getter untuk masing masing atributnya. Apakah gunanya method setter dan getter tersebut ?
 
     Jawaban : Getter yaitu mengambil data, sedangkan Setter yaitu mengatur data.
@@ -44,6 +47,9 @@ Bagaimanakah hasil program saat dijalankan, apakah ada perubahan ?
     P adalah objek dari processor. Iya, variabel new yang lama tidak ditampilkan, alhasil variable new yang baru lah yang hanya dapat ditampilkan.
 
 ### Pertanyaan Percobaan 2
+Ini adalah UML pada percobaan 2 :
+![screenshot](../../docs/4_Relasi_Class/img4/DiagramPercobaan2.png)
+
 1. Perhatikan class Pelanggan. Pada baris program manakah yang menunjukan bahwa class Pelanggan memiliki relasi dengan class Mobil dan class Sopir ? 
 Jawaban : 19, 23, 27, 31, dan 43.
 
@@ -73,6 +79,9 @@ Jadi untuk apakah sintaks p.getMobil().getMerk() yang ada di dalam method main t
     
 
 ### Pertanyaan Percobaan 3
+Ini adalah UML pada percobaan 3 :
+![screenshot](../../docs/4_Relasi_Class/img4/DiagramPercobaan3.png)
+
 1. Di dalam method info() pada class KeretaApi, baris this.masinis.info() dan this.asisten.info() digunakan untuk apa ? 
 
     Jawaban : Menampilkan siapa nama Asisten dan Masinis nya.
@@ -96,6 +105,9 @@ System.out.println(keretaApi.info());
 
 
 ### Pertanyaan Percobaan 4
+Ini adalah UML pada percobaan 4 :
+![screenshot](../../docs/4_Relasi_Class/img4/DiagramPercobaan4.png)
+
 1. Pada main program dalam class MainPercobaan4, berapakah jumlah kursi dalam Gerbong A?
 
     Jawaban : 10
@@ -127,7 +139,7 @@ info += "Penumpang: " + penumpang.info() + "\n";
 
 Didalam tugas ini, saya akan menampilkan detail pada suatu mobil.
 
-Berikut adalah diagram classnya : ![screenshot](img4/UML-Tugas-MobilDetail.png)
+Berikut adalah diagram classnya : ![screenshot](img4/UMLtugasMobilDetailRenewal.png)
 
 Link menuju diagram classnya ada disini : [diagram class](img4/UML-Tugas-MobilDetail.drawio)
 
