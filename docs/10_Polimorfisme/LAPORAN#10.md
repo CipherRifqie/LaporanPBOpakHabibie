@@ -1,4 +1,4 @@
-# Laporan Praktikum #7 - Overriding dan Overloading
+# Laporan Praktikum #10 - Polimorfisme
 
 ## Kompetensi
 

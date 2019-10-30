@@ -1,4 +1,4 @@
-# Laporan Praktikum #9 - Overriding dan Overloading
+# Laporan Praktikum #9 - Abstract Class adan Interface
 
 ## Kompetensi
 Setelah menyelesaikan lembar kerja ini mahasiswa diharapkan mampu:
