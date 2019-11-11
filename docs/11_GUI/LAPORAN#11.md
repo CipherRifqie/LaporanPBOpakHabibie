@@ -1,96 +1,89 @@
-# Laporan Praktikum #7 - Overriding dan Overloading
+# Laporan Praktikum #11 - GUI (Graphical User Interface)
 
 ## Kompetensi
-
-Setelah menempuh pokok bahasan ini, mahasiswa mampu :
-
-a.	Memahami konsep overloading dan overriding
-
-b.	Memahami perbedaan overloading dan overriding
-
-c.	Ketepatan dalam mengidentifikasi method overriding dan overloading
-
-d.	Ketepatan dalam mempraktekkan instruksi pada jobsheet
-
-e.	Mengimplementasikan method overloading dan overriding.
-
+Setelah menyelesaikan lembar kerja ini mahasiswa diharapkan mampu:
+1. Membuat aplikasi Graphical User Interface sederhana dengan bahasa pemrograman java;
+2. Mengenal komponen GUI seperti frame, label, textfield, combobox, radiobutton, checkbox,
+textarea, menu, serta table;
+3. Menambahkan event handling pada aplikasi GUI.
 
 ## Ringkasan Materi
-Menuliskan kembali rumusan (method) dari suatu class yang nantinya akan digabung pula dengan subclass yang memodifikasi bagaimana perlakuan yang lebih spesifik. Alhasil, method dari parent akan dideklarasikan melalui super class.
-
+Setiap interface pada suatu program memiliki tampilan yang membosankan kepada penggguna. Maka dari itu, muncullah komponen-komponen pada setiap software yang bernama GUI, sehingga interaksi antara komputer dengan manusia semakin bisa mengenal bagaimana prosedur dari perangkat lunak tersebut.
 
 ## Percobaan
 
-### Praktikum Percobaan 1
-![screenshot](img7/Praktikum/Praktikum1.PNG)
+### Praktikum Percobaan 2
+a)	Modifikasi kode program dengan menambahkan JButton baru untuk melakukan fungsi perhitungan penambahan, sehingga ketika button di klik (event click) maka akan menampilkan hasil penambahan dari nilai A dan B
 
-Ini adalah kode Karyawan nya : [link kode program](../../src/7_Overriding_dan_Overloading/Praktikum1/Karyawan1841720065Rifqie.java)
+Jawaban :![screenshot](../../docs/11_GUI/img11/Percobaan2/1.PNG)
+Link kode programnya ada disini :
+[link kode program](../../src/11_GUI/Percobaan2/MyInputForm1841720065Rifqie.java)
 
-Ini adalah kode Staff nya : [link kode program](../../src/7_Overriding_dan_Overloading/Praktikum1/Staff1841720065Rifqie.java)
+### Praktikum Percobaan 3
+a)	Apa perbedaan dari Grid Layout, Box Layout dan Border Layout?
 
-Ini adalah kode Manager nya : [link kode program](../../src/7_Overriding_dan_Overloading/Praktikum1/Manager1841720065Rifqie.java)
+Jawaban :
 
-Dan ini adalah kode main nya : [link kode main program](../../src/7_Overriding_dan_Overloading/Praktikum1/Utama1841720065Rifqie.java)
+-Grid Layout = Penempatan komponen dalam bentuk “rectangular
+grid” dan berdasarkan jumlah baris dan kolom yang diinginkan.
 
-## Latihan
-![screenshot](img7/Latihan/1.PNG)
+-Box Layout = Penempatan komponen dalam satu baris atau satu kolom.
 
-Ini adalah kode Perkalian nya : [link kode program](../../src/7_Overriding_dan_Overloading/Latihan/Perkalianku1841720065Rifqie.java)
+-Border Layout = Penyusun komponen berdasarkan lokasi geografis: NORTH, SOUTH, EAST, WEST, and CENTER.
 
-1.Dari source coding diatas terletak dimanakah overloading?
+b)	Apakah fungsi dari masing-masing kode berikut?
+    ![screenshot](../../docs/11_GUI/img11/Percobaan3/1.png)
+Jawaban : 
 
-Jawaban : Ada pada void perkalian yang berparameter integer a, b serta void perkalian yang berparameterkan integer a, b, dan c.
+Untuk menampilkan frame dimana setVisible merupakan bentuk dari Boolean yang merupakan salah satu macam type data dalam java yang digunakan untuk menampilkan pilihan true or false.
 
-2.Jika terdapat overloading ada berapa jumlah parameter yang berbeda?
+### Praktikum Percobaan 4
+a)	Apakah fungsi dari kode berikut?
+    ![screenshot](../../docs/11_GUI/img11/Percobaan4/1.png)
+Jawaban : 
 
-Jawaban : Ada 5
+Untuk menampilkan JFrame Form
 
-![screenshot](img7/Latihan/2.PNG)
+b)	Mengapa pada bagian logika checkbox dan radio button digunakan multiple if ?
 
-Ini adalah kode Perkalian part 2 nya : [link kode program](../../src/7_Overriding_dan_Overloading/Latihan/PerkaliankuPart21841720065Rifqie.java)
+Jawaban : 
 
-3.Dari source coding diatas terletak dimanakah overloading?
+Karena untuk melakukan pengecekan checkbox apakah sudah di checklist atau belum.
 
-Jawaban : Ada pada void perkalian yang berparameter integer a, b serta void perkalian yang berparameterkan double a, dan b.
+c)	Lakukan modifikasi pada program untuk melakukan menambahkan inputan berupa alamat dan berikan fungsi pemeriksaan pada nilai Alamat tersebut jika belum diisi dengan menampilkan pesan peringatan!
 
-4.Jika terdapat overloading ada berapa tipe parameter yang berbeda?
+Jawaban :
+![screenshot](../../docs/11_GUI/img11/Percobaan4/2.png)
 
-Jawaban : Ada 4
+### Praktikum Percobaan 5
+a)	Apa kegunaan komponen swing JTabPane, JTtree, pada percobaan 5?
 
-![screenshot](img7/Latihan/3.PNG)
+Jawaban :
 
-Ini adalah kode ikan nya : [link kode program](../../src/7_Overriding_dan_Overloading/Latihan/Ikan1841720065Rifqie.java)
+JTree = komponen yang digunakan untuk membuat struktur pohon.
+JTabbedPane = komponen grafis yang digunakan untuk menyusun dan mengelompokkan berbagai komponen Java lain ke dalam lapisan-lapisan (layers). JTabbedPane termasuk kelas-kelas wadah (container classes) yang terletak di paket javax.swing. 
 
-Ini adalah kode piranha nya : [link kode program](../../src/7_Overriding_dan_Overloading/Latihan/Piranha1841720065Rifqie.java)
+b)	Modifikasi program untuk menambahkan komponen JTable pada tab Halaman 1 dan tab Halaman 2
 
-Ini adalah kode main (fish) nya : [link kode main program](../../src/7_Overriding_dan_Overloading/Latihan/Fish1841720065Rifqie.java)
+Jawaban :
 
-
-5.Dari source coding diatas terletak dimanakah overloading?
-
-Jawaban : Ada pada printout "Piranha bisa makan daging" dan pada "Ikan bisa berenang"
-
-6.Jika terdapat overloading ada berapa tipe parameter yang berbeda?
-
-Jawaban : Tidak ada. Karena parameter tersebut kosong atau tidak ada.
+![screenshot](../../docs/11_GUI/img11/Percobaan5/1.png)
 
 ## Tugas
+![screenshot](../../docs/11_GUI/img11/Tugas/1.png)
 
-1.![screenshot](img7/Tugas/1.PNG)
-Ini adalah kode segitiga nya yang didalamnya terdapat main kodenya pula : [link kode program](../../src/7_Overriding_dan_Overloading/Tugas/Segitiga1841720065Rifqie.java)
+![screenshot](../../docs/11_GUI/img11/Tugas/2.png)
 
-2.![screenshot](img7/Tugas/2.PNG)
-Ini adalah kode dosen nya : [link kode program](../../src/7_Overriding_dan_Overloading/Tugas/Dosen1841720065Rifqie.java)
+Link kode calculator beserta interfacenya ada disini :
 
-Ini adalah kode mahasiswa nya : [link kode program](../../src/7_Overriding_dan_Overloading/Tugas/Mahasiswa1841720065Rifqie.java)
+[link kode main program](../../src/11_GUI/Tugas/calc.java)
 
-Ini adalah kode manusia nya : [link kode program](../../src/7_Overriding_dan_Overloading/Tugas/Manusia1841720065Rifqie.java)
+[link kode form](../../src/11_GUI/Tugas/TugasGUICalculator1841720065Rifqie.form)
 
-Ini adalah kode main kode manusia nya : [link kode main program](../../src/7_Overriding_dan_Overloading/Tugas/MainManusia1841720065Rifqie.java)
+[link kode program](../../src/11_GUI/Tugas/TugasGUICalculator1841720065Rifqie.java)
 
 ## Kesimpulan
-
-Overloading digunakan untuk membuat 2 atau lebih method (rumus) yang ada didalam satu class (judul), dan dapat dibedakan bagaimana bentuk parameter dan jumlahnya. Sedangkan overriding yaitu memodifikasi ulang variabel dan method dari parent classnya sehingga bisa melihat bagaimana proses tingkah laku dari super class tersebut.
+Onscreen (layout) untuk interaksi antara pengguna dengan computer menggunakan tampilan grafis (bukan text). GUI digunakan untuk mengembangkan perangkat lunak karena user-friendly dan menarik, tidak membosankan, dan mudah digunakan.
 
 ## Pernyataan Diri
 
