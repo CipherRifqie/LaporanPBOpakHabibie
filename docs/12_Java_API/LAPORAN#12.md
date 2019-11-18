@@ -1,96 +1,147 @@
-# Laporan Praktikum #7 - Overriding dan Overloading
+# Laporan Praktikum #12 - Collection (List, Set, Map) dan Database
 
 ## Kompetensi
 
 Setelah menempuh pokok bahasan ini, mahasiswa mampu :
 
-a.	Memahami konsep overloading dan overriding
+•	Memahami cara penyimpanan objek menggunakan Collection dan Map.
 
-b.	Memahami perbedaan overloading dan overriding
+•	Mengetahui pengelompokan dari Collection.
 
-c.	Ketepatan dalam mengidentifikasi method overriding dan overloading
+•	Mengetahui perbedaan dari interface Set, List dan Map.
 
-d.	Ketepatan dalam mempraktekkan instruksi pada jobsheet
+•	Mengetahui penggunaan class-class dari interface Set, List, dan Map.
 
-e.	Mengimplementasikan method overloading dan overriding.
-
+•	Memahami koneksi database menggunakan JDBC dan JDBC API
 
 ## Ringkasan Materi
-Menuliskan kembali rumusan (method) dari suatu class yang nantinya akan digabung pula dengan subclass yang memodifikasi bagaimana perlakuan yang lebih spesifik. Alhasil, method dari parent akan dideklarasikan melalui super class.
 
+Menyimpan objek menggunakan collection dan map yang didalamnya terdapat interface Set, List, dan Map untuk mengimplementasikannya ke dalam database menggunakan JDBC dan JDBC API. Serta penggunaannya untuk memberi list ke dalam program tersebut untuk ditampilkan ke usernya.
 
 ## Percobaan
 
 ### Praktikum Percobaan 1
-![screenshot](img7/Praktikum/Praktikum1.PNG)
+1.	Apakah fungsi import java.util.*; pada program diatas!
 
-Ini adalah kode Karyawan nya : [link kode program](../../src/7_Overriding_dan_Overloading/Praktikum1/Karyawan1841720065Rifqie.java)
+    Jawaban :
 
-Ini adalah kode Staff nya : [link kode program](../../src/7_Overriding_dan_Overloading/Praktikum1/Staff1841720065Rifqie.java)
+    Mengambil seluruh object source yang akan dibuat ke dalam program.
 
-Ini adalah kode Manager nya : [link kode program](../../src/7_Overriding_dan_Overloading/Praktikum1/Manager1841720065Rifqie.java)
+2.	Pada baris program keberapakah yang berfungsi untuk menciptakan object HashSet?
 
-Dan ini adalah kode main nya : [link kode main program](../../src/7_Overriding_dan_Overloading/Praktikum1/Utama1841720065Rifqie.java)
+    Jawaban :
 
-## Latihan
-![screenshot](img7/Latihan/1.PNG)
+    Pada baris ke - 3
+    
+3.	Apakah fungsi potongan program dibawah ini pada percobaan 1!
 
-Ini adalah kode Perkalian nya : [link kode program](../../src/7_Overriding_dan_Overloading/Latihan/Perkalianku1841720065Rifqie.java)
+    ![screenshot](img12/percobaan1soal1.png)
+    
+    Jawaban :
 
-1.Dari source coding diatas terletak dimanakah overloading?
+    Menambahkan data yang akan di proses ke dalam hasil output.
 
-Jawaban : Ada pada void perkalian yang berparameter integer a, b serta void perkalian yang berparameterkan integer a, b, dan c.
+4.	Tambahkan set.add(“Malang”); kemudian jalankan program! Amati hasilnya dan jelaskan mengapa terjadi error!
 
-2.Jika terdapat overloading ada berapa jumlah parameter yang berbeda?
+    Jawaban :
 
-Jawaban : Ada 5
+    Karena set.add(“malang”); pada variabel set masih belum di kenal sehingga output masih error.
 
-![screenshot](img7/Latihan/2.PNG)
+5.	Jelaskan fungsi potongan program dibawah ini pada percobaan 1!
 
-Ini adalah kode Perkalian part 2 nya : [link kode program](../../src/7_Overriding_dan_Overloading/Latihan/PerkaliankuPart21841720065Rifqie.java)
+    ![screenshot](img12/percobaan1soal2.png)
 
-3.Dari source coding diatas terletak dimanakah overloading?
+    Jawaban :
 
-Jawaban : Ada pada void perkalian yang berparameter integer a, b serta void perkalian yang berparameterkan double a, dan b.
+    Mengecek Iterator apakah mempunyai elemen selanjutnya atau tidak. Jika benar atau true, maka iterator akan memanggil nilai selanjutnya.
 
-4.Jika terdapat overloading ada berapa tipe parameter yang berbeda?
+### Praktikum Percobaan 2
+1.	Apakah fungsi potongan program dibawah ini!
 
-Jawaban : Ada 4
+    ![screenshot](img12/percobaan2soal1.png)
 
-![screenshot](img7/Latihan/3.PNG)
+    Jawaban :
 
-Ini adalah kode ikan nya : [link kode program](../../src/7_Overriding_dan_Overloading/Latihan/Ikan1841720065Rifqie.java)
+    Mengambil deretan data yang mau kita tampilkan  dari sebuah data array.
 
-Ini adalah kode piranha nya : [link kode program](../../src/7_Overriding_dan_Overloading/Latihan/Piranha1841720065Rifqie.java)
+2.	Ganti potongan program pada soal no 1 menjadi sebagai 
+    berikut!
+    ![screenshot](img12/percobaan2soal2.png)
+    Kemudian jalankan program tersebut!
 
-Ini adalah kode main (fish) nya : [link kode main program](../../src/7_Overriding_dan_Overloading/Latihan/Fish1841720065Rifqie.java)
+    Jawaban :
+    ![screenshot](img12/percobaan2jawab2.png)
 
 
-5.Dari source coding diatas terletak dimanakah overloading?
+3.	Jelaskan perbedaan menampilkan data pada ArrayList menggunakan potongan program pada soal no 1 dan no 2!
 
-Jawaban : Ada pada printout "Piranha bisa makan daging" dan pada "Ikan bisa berenang"
+    Jawaban :
 
-6.Jika terdapat overloading ada berapa tipe parameter yang berbeda?
+    Array list pada soal nomor 1 ditampilkan secara vertikal atau atas dan bawah. Sedangkan nomor 2 berurutan secara horizontal atau kiri dan kanan.
 
-Jawaban : Tidak ada. Karena parameter tersebut kosong atau tidak ada.
+### Praktikum Percobaan 3
+1.	Jelaskan fungsi hMapItem.put("1","Biskuit") pada program!
 
-## Tugas
+    Jawaban :
+    Fungsinya untuk memberikan nilai data pada hashMap.
+    
 
-1.![screenshot](img7/Tugas/1.PNG)
-Ini adalah kode segitiga nya yang didalamnya terdapat main kodenya pula : [link kode program](../../src/7_Overriding_dan_Overloading/Tugas/Segitiga1841720065Rifqie.java)
+2.	Jelaskan fungsi hMapItem.size() pada program!
 
-2.![screenshot](img7/Tugas/2.PNG)
-Ini adalah kode dosen nya : [link kode program](../../src/7_Overriding_dan_Overloading/Tugas/Dosen1841720065Rifqie.java)
+    Jawaban :
+    Untuk menampilkan hasil eksekusi dari data yang sudah di berikan sebelumnya.
 
-Ini adalah kode mahasiswa nya : [link kode program](../../src/7_Overriding_dan_Overloading/Tugas/Mahasiswa1841720065Rifqie.java)
+3.	Jelaskan fungsi hMapItem.remove("1") pada program!
 
-Ini adalah kode manusia nya : [link kode program](../../src/7_Overriding_dan_Overloading/Tugas/Manusia1841720065Rifqie.java)
+    Jawaban :
+    Untuk menghapus data Map indeks ke 1.
 
-Ini adalah kode main kode manusia nya : [link kode main program](../../src/7_Overriding_dan_Overloading/Tugas/MainManusia1841720065Rifqie.java)
+4.	Jelaskan fungsi hMapItem.clear() pada program!
+
+    Jawaban :
+    Untuk menghapus semua data yang ada di Map.
+
+5.	Tambahkan kode program yang di blok pada program yang sudah anda buat!
+![screenshot](img12/percobaan3soal1.png)
+
+6.	Jalankan program dan amati apa yang terjadi!
+
+    Jawaban :
+    ![screenshot](img12/percobaan3jawab6p1.png)
+    ![screenshot](img12/percobaan3jawab6p2.png)
+
+7.	Apakah perbedaan program sebelumnya dan setelah ditambahkan kode program pada soal no 5 diatas? Jelaskan!
+
+    Jawaban :
+
+    Pada program sebelumnya dengan program yang baru dia tidak di tampilkan kembali nilai dari indeks dari masing-masingnya. Sedangkan yang baru dia menampilkan nilai dari indeks masing-masingnya secara vertikal.
+
+### Praktikum Percobaan 5
+5.Setelah menambah code pada action button klik, coba jalankan program dan tambahkan data. Apakah program berhasil menambahkan data? Jika tidak apakah penyebabnya.
+
+Jawaban :
+
+6.Jelaskan maksud source code untuk melakukan insert data diatas?
+
+Jawaban :
+
+Pertama memanggil method buka_koneksi(), kemudian melakukan insert data pada sql code yang datanya didapat dari inputan melalui fungsi getText(). Kemudian melakukan try catch yang isinya berupa instansiasi PreparedStatement kemudian melakukan executeUpdate lalu close. Jika data berhasil
+ditambahkan, maka akan muncul pesan “Data Berhasil Ditambah” melalui JOptionPane.showMessageDialog. Jika gagal, maka akan muncul pesan “Terjadi Kesalahan”
+
+9.Jelaskan alur dari method ambil_data_tabel?
+
+Jawaban :
+
+Pertama memanggil method buka_koneksi() untuk menyambungkan ke database setelah itu executeQuery select ,
+taruh pada object dan getString satu” setealh itu di taruh ke dalam model tabel.
+
+10.Buat fungsi untuk merefresh sehingga data yang baru dapat ditampilkan pada tabel. 2.
+
+Jawaban :
+![screenshot](img12/percobaan5jawab10.png)
 
 ## Kesimpulan
-
-Overloading digunakan untuk membuat 2 atau lebih method (rumus) yang ada didalam satu class (judul), dan dapat dibedakan bagaimana bentuk parameter dan jumlahnya. Sedangkan overriding yaitu memodifikasi ulang variabel dan method dari parent classnya sehingga bisa melihat bagaimana proses tingkah laku dari super class tersebut.
+Wadah yang menampung value pada kontainer tunggal. Framework java collection menyediakan dengan cara extensible (secara kamus internasional : dapat dibuat panjang atau luas) dan dapat disatukan untuk menangani collections. Pada Groovy, collection dibuat lebih mudah untuk digunakan dan difokuskan menjadi 3 jenis.
 
 ## Pernyataan Diri
 
