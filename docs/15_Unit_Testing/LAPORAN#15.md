@@ -1,96 +1,68 @@
-# Laporan Praktikum #7 - Overriding dan Overloading
+# Laporan Praktikum #15 - Unit Testing
 
 ## Kompetensi
 
 Setelah menempuh pokok bahasan ini, mahasiswa mampu :
 
-a.	Memahami konsep overloading dan overriding
+1.Memahami konsep dan fungsi unit testing
 
-b.	Memahami perbedaan overloading dan overriding
+2.Menerapkan unit testing dengan JUnit pada program sederhana
 
-c.	Ketepatan dalam mengidentifikasi method overriding dan overloading
-
-d.	Ketepatan dalam mempraktekkan instruksi pada jobsheet
-
-e.	Mengimplementasikan method overloading dan overriding.
+3.Menerapkan unit testing dengan JUnit pada progam yang terkoneksi database
 
 
 ## Ringkasan Materi
-Menuliskan kembali rumusan (method) dari suatu class yang nantinya akan digabung pula dengan subclass yang memodifikasi bagaimana perlakuan yang lebih spesifik. Alhasil, method dari parent akan dideklarasikan melalui super class.
+Unit testing adalah sebuah kode yang ditulis oleh developer, yang digunakan untuk menguji bagian kecil/area spesifik dari suatu aplikasi yang telah/sedang dibuat. Unit testing bertujuan untuk menghilangkan kebutuhan akan pengujian manual kode aplikasi oleh manusia (tester/QC). Sehingga dengan kata lain unit testing adalah usaha untuk mengotomatiskan pengujian kode program (automated test) Kode tes tidak akan dikirimkan ke user, melainkan hanya production code (kode yang digunakan dalam program utama) saja yang dikirim. Unit testing dilakukan setelah programmer selesai menuliskan suatu kode/fungsi/method yang ada dalam suatu class. Dapat juga dilakukan setelah menambahkan sebuah fungsionalitas baru atau setelah melakukan refactoring.
 
 
 ## Percobaan
 
 ### Praktikum Percobaan 1
-![screenshot](img7/Praktikum/Praktikum1.PNG)
+![Percobaan 1 ScreenShot 1](img15/p1-1.png)
 
-Ini adalah kode Karyawan nya : [link kode program](../../src/7_Overriding_dan_Overloading/Praktikum1/Karyawan1841720065Rifqie.java)
+![Percobaan 1 ScreenShot 2](img15/p1-2.png)
 
-Ini adalah kode Staff nya : [link kode program](../../src/7_Overriding_dan_Overloading/Praktikum1/Staff1841720065Rifqie.java)
+`Kode Program`
 
-Ini adalah kode Manager nya : [link kode program](../../src/7_Overriding_dan_Overloading/Praktikum1/Manager1841720065Rifqie.java)
+* [MessageProcessor1841720065Rifqie.java](../../src/15_Unit_Testing/main/java/unittest/MessageProcessor1841720065Rifqie.java)
+* [LearnUnitTesting1841720065Rifqie.java](../../src/15_Unit_Testing/main/java/unittest/LearnUnitTesting1841720065Rifqie.java)
+* [MessageProcessor1841720065RifqieTest.java](../../src/15_Unit_Testing/test/java/unittest/MessageProcessor1841720065Rifqie.java)
+* [TestRunner1841720019Sultan.java](../../src/15_Unit_Testing/test/java/unittest/TestRunner1841720065Rifqie.java)
 
-Dan ini adalah kode main nya : [link kode main program](../../src/7_Overriding_dan_Overloading/Praktikum1/Utama1841720065Rifqie.java)
+### Praktikum Percobaan 2
+![Percobaan 2 ScreenShot 1](img15/p2-1.png)
 
-## Latihan
-![screenshot](img7/Latihan/1.PNG)
+![Percobaan 2 ScreenShot 2](img15/p2-2.png)
 
-Ini adalah kode Perkalian nya : [link kode program](../../src/7_Overriding_dan_Overloading/Latihan/Perkalianku1841720065Rifqie.java)
-
-1.Dari source coding diatas terletak dimanakah overloading?
-
-Jawaban : Ada pada void perkalian yang berparameter integer a, b serta void perkalian yang berparameterkan integer a, b, dan c.
-
-2.Jika terdapat overloading ada berapa jumlah parameter yang berbeda?
-
-Jawaban : Ada 5
-
-![screenshot](img7/Latihan/2.PNG)
-
-Ini adalah kode Perkalian part 2 nya : [link kode program](../../src/7_Overriding_dan_Overloading/Latihan/PerkaliankuPart21841720065Rifqie.java)
-
-3.Dari source coding diatas terletak dimanakah overloading?
-
-Jawaban : Ada pada void perkalian yang berparameter integer a, b serta void perkalian yang berparameterkan double a, dan b.
-
-4.Jika terdapat overloading ada berapa tipe parameter yang berbeda?
-
-Jawaban : Ada 4
-
-![screenshot](img7/Latihan/3.PNG)
-
-Ini adalah kode ikan nya : [link kode program](../../src/7_Overriding_dan_Overloading/Latihan/Ikan1841720065Rifqie.java)
-
-Ini adalah kode piranha nya : [link kode program](../../src/7_Overriding_dan_Overloading/Latihan/Piranha1841720065Rifqie.java)
-
-Ini adalah kode main (fish) nya : [link kode main program](../../src/7_Overriding_dan_Overloading/Latihan/Fish1841720065Rifqie.java)
-
-
-5.Dari source coding diatas terletak dimanakah overloading?
-
-Jawaban : Ada pada printout "Piranha bisa makan daging" dan pada "Ikan bisa berenang"
-
-6.Jika terdapat overloading ada berapa tipe parameter yang berbeda?
-
-Jawaban : Tidak ada. Karena parameter tersebut kosong atau tidak ada.
+* [Kategori1841720065Rifqie.java](../../src/15_Unit_Testing/main/java/database/backend/Kategori1841720065Rifqie.java)
+* [DBHelper1841720065Rifqie.java](../../src/15_Unit_Testing/main/java/database/backend/DBHelper1841720065Rifqie.java)
+* [TestBackend1841720065Rifqie.java](../../src/15_Unit_Testing/main/java/database/frontend/TestBackend1841720065Rifqie.java)
+* [FrmKategori1841720065Rifqie.java](../../src/15_Unit_Testing/main/java/database/frontend/FrmKategori1841720065Rifqie.java)
+* [FrmKategori1841720065Rifqie.form](../../src/15_Unit_Testing/main/java/database/frontend/FrmAnggota1841720065Rifqie.form)
+* [Kategori1841720065Rifqie.java](../../src/15_Unit_Testing/test/java/../../main/java/database/backend/Kategori1841720065Rifqie.java)
+* [TestRunner1841720065Rifqie.java](../../src/15_Unit_Testing/test/java/unittest/TestRunner1841720065Rifqie.java)
 
 ## Tugas
+![Tugas 1 ScreenShot 1](img15/t1.png)
 
-1.![screenshot](img7/Tugas/1.PNG)
-Ini adalah kode segitiga nya yang didalamnya terdapat main kodenya pula : [link kode program](../../src/7_Overriding_dan_Overloading/Tugas/Segitiga1841720065Rifqie.java)
+![Tugas 1 ScreenShot 2](img15/t2.png)
 
-2.![screenshot](img7/Tugas/2.PNG)
-Ini adalah kode dosen nya : [link kode program](../../src/7_Overriding_dan_Overloading/Tugas/Dosen1841720065Rifqie.java)
+* [Anggota1841720065Rifqie.java](../../src/15_Unit_Testing/main/java/database/backend/Anggota1841720065Rifqie.java)
+* [DBHelper1841720065Rifqie.java](../../src/15_Unit_Testing/main/java/database/backend/DBHelper1841720065Rifqie.java)
+* [TestBackendAnggota1841720065Rifqie.java](../../src/15_Unit_Testing/main/java/id/natlus/jobsheet15/database/frontend/TestBackendAnggota1841720065Rifqie.java)
+* [FrmAnggota1841720065Rifqie.java](../../src/15_Unit_Testing/main/java/id/natlus/jobsheet15/database/frontend/FrmAnggota1841720065Rifqie.java)
+* [FrmAnggota1841720065Rifqie.form](../../src/15_Unit_Testing/main/java/id/natlus/jobsheet15/database/frontend/FrmAnggota1841720065Rifqie.form)
+* [Anggota1841720065RifqieTest.java](../../src/15_Unit_Testing/test/java/id/natlus/jobsheet15/database/backend/Anggota1841720065RifqieTest.java)
+* [TestRunner1841720065Rifqie.java](../../src/15_Unit_Testing/test/java/id/natlus/jobsheet15/unittest/TestRunner1841720065Rifqie.java)
 
-Ini adalah kode mahasiswa nya : [link kode program](../../src/7_Overriding_dan_Overloading/Tugas/Mahasiswa1841720065Rifqie.java)
-
-Ini adalah kode manusia nya : [link kode program](../../src/7_Overriding_dan_Overloading/Tugas/Manusia1841720065Rifqie.java)
-
-Ini adalah kode main kode manusia nya : [link kode main program](../../src/7_Overriding_dan_Overloading/Tugas/MainManusia1841720065Rifqie.java)
 
 ## Kesimpulan
 
-Overloading digunakan untuk membuat 2 atau lebih method (rumus) yang ada didalam satu class (judul), dan dapat dibedakan bagaimana bentuk parameter dan jumlahnya. Sedangkan overriding yaitu memodifikasi ulang variabel dan method dari parent classnya sehingga bisa melihat bagaimana proses tingkah laku dari super class tersebut.
+1. Saya mampu memahami konsep dan fungsi unit testing
+
+2. Saya mampu menerapkan unit testing dengan JUnit pada program sederhana.
+
+3. Saya mampu menerapkan unit testing dengan JUnit pada progam yang terkoneksi database
 
 ## Pernyataan Diri
 

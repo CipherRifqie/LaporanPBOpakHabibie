@@ -1,4 +1,4 @@
-# Laporan Praktikum #9 - Abstract Class adan Interface
+# Laporan Praktikum #9 - Abstract Class dan Interface
 
 ## Kompetensi
 Setelah menyelesaikan lembar kerja ini mahasiswa diharapkan mampu:
