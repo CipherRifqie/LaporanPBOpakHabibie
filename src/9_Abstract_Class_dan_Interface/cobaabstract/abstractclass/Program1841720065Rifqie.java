@@ -7,7 +7,7 @@ package cobaabstract.abstractclass;
 
 /**
  *
- * @author Dell
+ * @author
  */
 public class Program1841720065Rifqie {
     public static void main(String[] args) {

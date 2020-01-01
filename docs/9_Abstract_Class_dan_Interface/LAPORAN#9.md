@@ -13,6 +13,27 @@ Abstract dan Interface adalah suatu penggabungan yang bila atribut tidak dapat d
 ## Percobaan
 
 ### Praktikum Percobaan 1
+![screenshot](img9/Percobaan1/1.PNG)
+![screenshot](img9/Percobaan1/2.PNG)
+![screenshot](img9/Percobaan1/3.PNG)
+![screenshot](img9/Percobaan1/4.PNG)
+![screenshot](img9/Percobaan1/5.PNG)
+
+Link kode Hewan ada disini :
+[link kode program](../../src/9_Abstract_Class_dan_Interface/cobaabstract/abstractclass/Hewan1841720065Rifqie.java)
+
+Link kode Ikan ada disini :
+[link kode program](../../src/9_Abstract_Class_dan_Interface/cobaabstract/abstractclass/Ikan1841720065Rifqie.java)
+
+Link kode Kucing ada disini :
+[link kode program](../../src/9_Abstract_Class_dan_Interface/cobaabstract/abstractclass/Kucing1841720065Rifqie.java)
+
+Link kode Orang ada disini :
+[link kode program](../../src/9_Abstract_Class_dan_Interface/cobaabstract/abstractclass/Orang1841720065Rifqie.java)
+
+Link main code nya ada disini :
+[link kode program](../../src/9_Abstract_Class_dan_Interface/cobaabstract/abstractclass/Program1841720065Rifqie.java)
+
 Bolehkah	apabila	sebuah	class	yang	meng-extend	suatu	abstract	class	tidak mengimplementasikan method abstract yang ada di class induknya? Buktikan!
  
 Jawaban :
